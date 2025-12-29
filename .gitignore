@@ -1,0 +1,11 @@
+# compiled binaries
+*.exe
+
+# output files
+output/
+
+# VS Code
+.vscode/
+
+# OS junk
+.DS_Store
