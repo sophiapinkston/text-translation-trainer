@@ -1,0 +1,1 @@
+console.log("Language Learner Trainer front end loaded in!"); 
