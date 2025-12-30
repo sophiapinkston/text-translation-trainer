@@ -47,3 +47,50 @@ body {
   color: var(--text-secondary);
   line-height: 1.6;
 }
+
+.button-row {
+  margin-top: 1.5rem; 
+  display: flex; 
+  gap: 1rem; 
+  justify-content: center; 
+}
+
+.btn {
+  font-family: inherit; 
+  font-size: 1rem; 
+  padding: 0.7rem 1.3rem; 
+  border:none; 
+  border-radius: 10px; 
+  cursor: pointer; 
+
+  transition: transform 0.1s ease, background-color 0.2s ease; 
+}
+
+.btn:hover {
+transform: translateY(-1px);
+}
+
+.btn-primary {
+background-color: #2f2f4f;
+color:#eeeeff 
+}
+
+.btn-secondary {
+background-color: #5f5f8a; 
+color: #eeeeff; 
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0; 
+  display: inline-block; 
+  border: none; 
+  background: #b1a6cf; 
+  color:#eeeeff
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
